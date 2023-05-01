@@ -26,7 +26,7 @@ export default function Home() {
             para conquistar o paladar do seu bebê
           </p>
           <p className="text-center sm:text-lg">
-            Guia completo ára uma introdução alimentar segura e prazerosa,
+            Guia completo para uma introdução alimentar segura e prazerosa,
             criando hábitos alimentares saudáveis desde o início da vida
           </p>
           <p className="text-center sm:text-lg">
