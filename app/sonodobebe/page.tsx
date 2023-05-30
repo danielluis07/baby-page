@@ -1,4 +1,9 @@
-import React from "react";
+import Image from "next/image";
+import logos from "../../public/logos.png";
+import visa from "../../public/visa.png";
+import master from "../../public/master-card.png";
+import pix from "../../public/pix.png";
+import boleto from "../../public/boleto-logo.png";
 
 const Home = () => {
   return (
@@ -22,14 +27,31 @@ const Home = () => {
             reparador sem interrupções
           </h1>
         </div>
-        <div className="mt-20 pb-28 flex justify-center">
+        <div className="mt-20 flex justify-center">
           <button className="rounded-lg px-8 py-4 bg-green-400 hover:bg-green-300">
-            <a
-              href="https://hotmart.com/pt-br/marketplace/produtos/introdulcao-alimentar-para-bebes-50-receitas-de-papinhas-saborosas-e-nutritivas/T82163193B"
-              target="blank">
-              SAIBA MAIS
+            <a href="https://pay.kiwify.com.br/JKceqDi" target="blank">
+              SIM, QUERO MELHORAR O SONO DO BEBÊ
             </a>
           </button>
+        </div>
+        <div className="flex pt-28 pb-28 flex-row gap-x-8 justify-center items-center">
+          <div className="w-[80px]">
+            <Image src={visa} alt="visa" />
+          </div>
+          <div className="w-[80px]">
+            <Image src={master} alt="master-card" />
+          </div>
+          <div className="w-[80px]">
+            <Image src={pix} alt="pix" />
+          </div>
+          <div className="w-[80px]">
+            <Image src={boleto} alt="pix" />
+          </div>
+        </div>
+        <div className="mt-20 bg-slate-100 py-16">
+          <div className="w-5/6 mx-auto justify-center items-center flex">
+            <Image src={logos} width={500} height={500} alt="image" />
+          </div>
         </div>
       </div>
     </main>
