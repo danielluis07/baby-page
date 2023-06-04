@@ -27,7 +27,7 @@ const Home = () => {
             reparador sem interrupções
           </h1>
         </div>
-        <div className="mt-20 flex justify-center">
+        <div className="flex justify-center">
           <button className="rounded-lg px-8 py-4 bg-green-400 hover:bg-green-300">
             <a href="https://pay.kiwify.com.br/JKceqDi" target="blank">
               SIM, QUERO MELHORAR O SONO DO MEU BEBÊ
